@@ -3,18 +3,59 @@ export const stockArr = [
   {
     name: '南极电商',
     totalStock: 24.55, // 总股本
-    profit2020: 15.1, // 2020年净利润
-    profit2021: 18.8, // 2021年净利润
+    profit2020: 11.9, // 2020年净利润
+    profit2021: 14.1, // 2021年净利润（预估）
     lowestPE: 16.03, // 近几年最低市盈率
-    averagePE: 31.27 // 近几年平均市盈率
+    averagePE: 29.02 // 近几年平均市盈率
+  },
+  {
+    name: '中炬高新',
+    totalStock: 7.97,
+    profit2020: 8.9,
+    profit2021: 9.96,
+    lowestPE: 36.96,
+    averagePE: 55.92
+  },
+  {
+    name: '三一重工',
+    totalStock: 84.85,
+    profit2020: 154,
+    profit2021: 193,
+    lowestPE: 11.23,
+    averagePE: 16.11
+  },
+  {
+    name: '海螺水泥',
+    totalStock: 52.99, // 总股本
+    profit2020: 351, // 2020年净利润
+    profit2021: 368, // 2021年净利润（预估）
+    lowestPE: 5.59, // 近几年最低市盈率
+    // lowestPE: 6.4, // 近几年最低市盈率
+    averagePE: 8.11 // 近几年平均市盈率
+  },
+  {
+    name: '伊利股份',
+    totalStock: 60.83,
+    profit2020: 70.8,
+    profit2021: 86.2,
+    lowestPE: 21.03,
+    averagePE: 30.63
+  },
+  {
+    name: '洽洽食品',
+    totalStock: 5.07,
+    profit2020: 8.05,
+    profit2021: 9.52,
+    lowestPE: 22.63,
+    averagePE: 36.78
   },
   {
     name: '中顺洁柔',
     totalStock: 13.12,
-    profit2020: 9.2,
-    profit2021: 11.2,
+    profit2020: 9.06,
+    profit2021: 12.4,
     lowestPE: 21.94,
-    averagePE: 36.25
+    averagePE: 37.93
   }
 ]
 
