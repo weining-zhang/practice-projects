@@ -6,13 +6,13 @@ export const stockArr = [
     profit2020: 11.9, // 2020年净利润
     profit2021: 14.1, // 2021年净利润（预估）
     lowestPE: 16.03, // 近几年最低市盈率
-    averagePE: 29.02 // 近几年平均市盈率
+    averagePE: 28.75 // 近几年平均市盈率
   },
   {
     name: '中炬高新',
     totalStock: 7.97,
     profit2020: 8.9,
-    profit2021: 9.96,
+    profit2021: 9.93,
     lowestPE: 36.96,
     averagePE: 55.92
   },
@@ -38,7 +38,7 @@ export const stockArr = [
     totalStock: 60.83,
     profit2020: 70.8,
     profit2021: 86.2,
-    lowestPE: 21.03,
+    lowestPE: 23.66,
     averagePE: 30.63
   },
   {
@@ -47,7 +47,7 @@ export const stockArr = [
     profit2020: 8.05,
     profit2021: 9.52,
     lowestPE: 22.63,
-    averagePE: 36.78
+    averagePE: 37.17
   },
   {
     name: '中顺洁柔',
@@ -55,7 +55,15 @@ export const stockArr = [
     profit2020: 9.06,
     profit2021: 12.4,
     lowestPE: 21.94,
-    averagePE: 37.93
+    averagePE: 38.19
+  },
+  {
+    name: '索菲亚',
+    totalStock: 9.12,
+    profit2020: 11.9,
+    profit2021: 14.2,
+    lowestPE: 14.91,
+    averagePE: 20.81
   }
 ]
 
