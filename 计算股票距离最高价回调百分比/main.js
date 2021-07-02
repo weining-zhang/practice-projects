@@ -2,7 +2,7 @@ import { request, StockInfo } from './request.js';
 import { stockArr } from './stockData.js';
 
 let stockInfoArr = []   // 临时保存请求过来的股票最新信息, 每一轮请求前都需被清空
-let delayUpdate = 60000 // 设置间隔多长时间更新股票信息
+let delayUpdate = 120000 // 设置间隔多长时间更新股票信息
 let delayDisplay = 500  // 设置从请求数据到显示出来的延迟时间
 
 /**
