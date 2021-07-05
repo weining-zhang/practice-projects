@@ -64,6 +64,14 @@ export const stockArr = [
     profit2021: 14.2,
     lowestPE: 14.91,
     averagePE: 20.81
+  },
+  {
+    name: '立讯精密',
+    totalStock: 70.35,
+    profit2020: 72.3,
+    profit2021: 92.6,
+    lowestPE: 30.54,
+    averagePE: 54.19
   }
 ]
 
