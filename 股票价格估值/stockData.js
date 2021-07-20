@@ -9,12 +9,28 @@ export const stockArr = [
     averagePE: 28.75 // 近几年平均市盈率
   },
   {
+    name: '洽洽食品',
+    totalStock: 5.07,
+    profit2020: 8.05,
+    profit2021: 9.45,
+    lowestPE: 19.46,
+    averagePE: 37.19
+  },
+  {
     name: '中炬高新',
     totalStock: 7.97,
     profit2020: 8.9,
     profit2021: 9.93,
-    lowestPE: 36.96,
-    averagePE: 55.92
+    lowestPE: 30.44,
+    averagePE: 55.53
+  },
+  {
+    name: '索菲亚',
+    totalStock: 9.12,
+    profit2020: 11.9,
+    profit2021: 14.3,
+    lowestPE: 13.62,
+    averagePE: 20.81
   },
   {
     name: '三一重工',
@@ -42,28 +58,12 @@ export const stockArr = [
     averagePE: 30.63
   },
   {
-    name: '洽洽食品',
-    totalStock: 5.07,
-    profit2020: 8.05,
-    profit2021: 9.52,
-    lowestPE: 22.63,
-    averagePE: 37.17
-  },
-  {
     name: '中顺洁柔',
     totalStock: 13.12,
     profit2020: 9.06,
     profit2021: 12.4,
     lowestPE: 21.94,
     averagePE: 38.19
-  },
-  {
-    name: '索菲亚',
-    totalStock: 9.12,
-    profit2020: 11.9,
-    profit2021: 14.2,
-    lowestPE: 14.91,
-    averagePE: 20.81
   },
   {
     name: '立讯精密',
