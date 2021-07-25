@@ -4,9 +4,9 @@ export const stockArr = [
     name: '南极电商',
     totalStock: 24.55, // 总股本
     profit2020: 11.9, // 2020年净利润
-    profit2021: 14.1, // 2021年净利润（预估）
+    profit2021: 14, // 2021年净利润（预估）
     lowestPE: 16.03, // 近几年最低市盈率
-    averagePE: 28.75 // 近几年平均市盈率
+    averagePE: 28.64 // 近几年平均市盈率
   },
   {
     name: '洽洽食品',
@@ -17,20 +17,20 @@ export const stockArr = [
     averagePE: 37.19
   },
   {
-    name: '中炬高新',
-    totalStock: 7.97,
-    profit2020: 8.9,
-    profit2021: 9.93,
-    lowestPE: 30.44,
-    averagePE: 55.53
-  },
-  {
     name: '索菲亚',
     totalStock: 9.12,
     profit2020: 11.9,
     profit2021: 14.3,
     lowestPE: 13.62,
     averagePE: 20.81
+  },
+  {
+    name: '中炬高新',
+    totalStock: 7.97,
+    profit2020: 8.9,
+    profit2021: 9.93,
+    lowestPE: 30.44,
+    averagePE: 55.53
   },
   {
     name: '三一重工',
