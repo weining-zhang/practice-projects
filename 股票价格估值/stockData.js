@@ -6,6 +6,7 @@ export const stockArr = [
     profit2020: 11.9, // 2020年净利润
     profit2021: 14, // 2021年净利润（预估）
     lowestPE: 16.03, // 近几年最低市盈率
+    // lowestPE: 17.09, // 近几年「次低」市盈率
     averagePE: 28.64 // 近几年平均市盈率
   },
   {
@@ -13,7 +14,9 @@ export const stockArr = [
     totalStock: 5.07,
     profit2020: 8.05,
     profit2021: 9.45,
-    lowestPE: 19.46,
+    // lowestPE: 21.12, // 近2年最低市盈率
+    lowestPE: 19.46,  // 近几年最低市盈率
+    // lowestPE: 18.28,  // 上市以来最低市盈率
     averagePE: 37.19
   },
   {
@@ -33,6 +36,22 @@ export const stockArr = [
     averagePE: 55.53
   },
   {
+    name: '伊利股份',
+    totalStock: 60.83,
+    profit2020: 70.8,
+    profit2021: 86.2,
+    lowestPE: 21.03,
+    averagePE: 30.63
+  },
+  {
+    name: '中顺洁柔',
+    totalStock: 13.12,
+    profit2020: 9.06,
+    profit2021: 12.4,
+    lowestPE: 21.94,
+    averagePE: 38.19
+  },
+  {
     name: '三一重工',
     totalStock: 84.85,
     profit2020: 154,
@@ -50,29 +69,13 @@ export const stockArr = [
     averagePE: 8.11 // 近几年平均市盈率
   },
   {
-    name: '伊利股份',
-    totalStock: 60.83,
-    profit2020: 70.8,
-    profit2021: 86.2,
-    lowestPE: 23.66,
-    averagePE: 30.63
-  },
-  {
-    name: '中顺洁柔',
-    totalStock: 13.12,
-    profit2020: 9.06,
-    profit2021: 12.4,
-    lowestPE: 21.94,
-    averagePE: 38.19
-  },
-  {
     name: '立讯精密',
     totalStock: 70.35,
     profit2020: 72.3,
     profit2021: 92.6,
     lowestPE: 30.54,
     averagePE: 54.19
-  }
+  },
 ]
 
 // 创建一个数据结构处理原始股票数据
