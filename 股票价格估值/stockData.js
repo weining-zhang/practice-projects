@@ -24,7 +24,7 @@ export const stockArr = [
     totalStock: 9.12,
     profit2020: 11.9,
     profit2021: 14.3,
-    lowestPE: 13.62,
+    lowestPE: 13.11,
     averagePE: 20.81
   },
   {
