@@ -100,5 +100,6 @@ export class StockInfo {
     this.LowestPrice2020 = stockArr[i].LowestPrice2020 + '元'
     this.LowestPrice2021 = stockArr[i].LowestPrice2021 + '元'
     this.NormalPrice2021 = stockArr[i].NormalPrice2021 + '元'
+    this.increase2021 = stockArr[i].increase2021 + '%'
   }
 }
