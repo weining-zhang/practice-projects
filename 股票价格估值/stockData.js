@@ -2,21 +2,21 @@
 export const stockArr = [
   {
     name: '南极电商',
-    totalStock: 24.55, // 总股本
-    profit2020: 11.9, // 2020年净利润
-    profit2021: 14, // 2021年净利润（预估）
-    lowestPE: 16.03, // 近几年最低市盈率
-    // lowestPE: 17.09, // 近几年「次低」市盈率
-    averagePE: 28.64 // 近几年平均市盈率
+    totalStock: 24.55,  // 总股本
+    profit2020: 11.9,   // 2020年净利润
+    profit2021: 14,     // 2021年净利润（预估）
+    lowestPE: 16.03,    // 「近几年最低」市盈率 -> 2021-01
+    // lowestPE: 17.09, // 「近几年次低」市盈率 -> 2021-01
+    averagePE: 28.64    // 近两年平均市盈率
   },
   {
     name: '洽洽食品',
     totalStock: 5.07,
     profit2020: 8.05,
     profit2021: 9.22,
-    // lowestPE: 21.12, // 近2年最低市盈率
-    lowestPE: 19.46,  // 近几年最低市盈率
-    // lowestPE: 18.28,  // 上市以来最低市盈率
+    // lowestPE: 21.12, // 「近2年最低」市盈率 -> 2018-08
+    lowestPE: 19.46,    // 「近几年最低」市盈率 -> 2015-08
+    // lowestPE: 18.28, // 「上市以来最低」市盈率 -> 2013-07
     averagePE: 37.19
   },
   {
@@ -24,7 +24,7 @@ export const stockArr = [
     totalStock: 9.12,
     profit2020: 11.9,
     profit2021: 14,
-    lowestPE: 13.11,
+    lowestPE: 13.11,    // 「上市以来最低」市盈率 -> 2021-07
     averagePE: 20.81
   },
   {
@@ -32,7 +32,8 @@ export const stockArr = [
     totalStock: 7.97,
     profit2020: 8.9,
     profit2021: 9.85,
-    lowestPE: 27.21,
+    lowestPE: 27.21,    // 「近几年次低」市盈率 -> 2014-10
+    // lowestPE: 19.46, // 「近几年最低」市盈率 -> 2012-12
     averagePE: 55.01
   },
   {
@@ -40,24 +41,24 @@ export const stockArr = [
     totalStock: 13.12,
     profit2020: 9.06,
     profit2021: 12.4,
-    lowestPE: 21.94,
+    lowestPE: 21.94,    // 「近几年最低」市盈率 -> 2018-11
     averagePE: 37.66
   },
   {
     name: '安琪酵母',
-    totalStock: 8.33,   // 总股本
-    profit2020: 13.7,   // 2020年净利润
-    profit2021: 15.4,   // 2021年净利润（预估）
-    lowestPE: 24.31,    // 「近两年最低」市盈率 -> 2020-2
+    totalStock: 8.33,
+    profit2020: 13.7,
+    profit2021: 15.4,
+    lowestPE: 24.31,    // 「近2年最低」市盈率 -> 2020-02
     // lowestPE: 18.98, // 「近几年最低」市盈率 -> 2018-11
-    averagePE: 34.65    // 近两年平均市盈率
+    averagePE: 34.65
   },
   {
     name: '伊利股份',
     totalStock: 60.82,
     profit2020: 70.8,
     profit2021: 86.2,
-    lowestPE: 21.03,
+    lowestPE: 21.03,    // 「近3年最低」市盈率 -> 2018-10
     averagePE: 30.63
   },
   {
@@ -65,25 +66,24 @@ export const stockArr = [
     totalStock: 84.85,
     profit2020: 154,
     profit2021: 193,
-    lowestPE: 11.23,
-    averagePE: 16.11
+    lowestPE: 11.22,    // 「近几年最低」市盈率 -> 2021-07
+    averagePE: 15.92
   },
   {
     name: '海螺水泥',
-    totalStock: 52.99, // 总股本
-    profit2020: 351, // 2020年净利润
-    profit2021: 368, // 2021年净利润（预估）
-    lowestPE: 5.59, // 近几年最低市盈率
-    // lowestPE: 6.4, // 近几年最低市盈率
-    averagePE: 8.11 // 近几年平均市盈率
+    totalStock: 52.99,
+    profit2020: 351,
+    profit2021: 368,
+    lowestPE: 5.19,     // 「近几年最低」市盈率 -> 2021-07
+    averagePE: 8.09
   },
   {
     name: '立讯精密',
     totalStock: 70.35,
     profit2020: 72.3,
-    profit2021: 92.6,
-    lowestPE: 30.54,
-    averagePE: 54.19
+    profit2021: 90.1,
+    lowestPE: 30.54,     // 「近2年最低」市盈率 -> 2021-05
+    averagePE: 54.47
   },
 ]
 
