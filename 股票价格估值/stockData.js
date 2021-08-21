@@ -44,6 +44,15 @@ export const stockArr = [
     averagePE: 37.66
   },
   {
+    name: '安琪酵母',
+    totalStock: 8.33,   // 总股本
+    profit2020: 13.7,   // 2020年净利润
+    profit2021: 15.4,   // 2021年净利润（预估）
+    lowestPE: 24.31,    // 「近两年最低」市盈率 -> 2020-2
+    // lowestPE: 18.98, // 「近几年最低」市盈率 -> 2018-11
+    averagePE: 34.65    // 近两年平均市盈率
+  },
+  {
     name: '伊利股份',
     totalStock: 60.82,
     profit2020: 70.8,
