@@ -13,7 +13,7 @@ export const stockArr = [
     name: '洽洽食品',
     totalStock: 5.07,
     profit2020: 8.05,
-    profit2021: 9.45,
+    profit2021: 9.22,
     // lowestPE: 21.12, // 近2年最低市盈率
     lowestPE: 19.46,  // 近几年最低市盈率
     // lowestPE: 18.28,  // 上市以来最低市盈率
@@ -23,7 +23,7 @@ export const stockArr = [
     name: '索菲亚',
     totalStock: 9.12,
     profit2020: 11.9,
-    profit2021: 14.3,
+    profit2021: 14,
     lowestPE: 13.11,
     averagePE: 20.81
   },
@@ -31,17 +31,9 @@ export const stockArr = [
     name: '中炬高新',
     totalStock: 7.97,
     profit2020: 8.9,
-    profit2021: 9.93,
-    lowestPE: 30.44,
-    averagePE: 55.53
-  },
-  {
-    name: '伊利股份',
-    totalStock: 60.83,
-    profit2020: 70.8,
-    profit2021: 86.2,
-    lowestPE: 21.03,
-    averagePE: 30.63
+    profit2021: 9.85,
+    lowestPE: 27.21,
+    averagePE: 55.01
   },
   {
     name: '中顺洁柔',
@@ -49,7 +41,15 @@ export const stockArr = [
     profit2020: 9.06,
     profit2021: 12.4,
     lowestPE: 21.94,
-    averagePE: 38.19
+    averagePE: 37.66
+  },
+  {
+    name: '伊利股份',
+    totalStock: 60.82,
+    profit2020: 70.8,
+    profit2021: 86.2,
+    lowestPE: 21.03,
+    averagePE: 30.63
   },
   {
     name: '三一重工',
